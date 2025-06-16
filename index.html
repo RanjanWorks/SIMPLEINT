@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Intrest</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.boxicons.com/fonts/basic/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h4>Simple Intrest Calculator</h4>
+    </header>
+    <form action="">
+      <div class="input-box">
+        <label for="principle">Principle</label>
+        <div>
+          <input id="principle" type="number" required />
+          <i class="bxr bx-rupee"></i>
+        </div>
+      </div>
+      <div class="input-box">
+        <label for="rate">Rate</label>
+        <div>
+          <input id="rate" type="number" required />
+          <i class="bxr bx-percentage"></i>
+        </div>
+      </div>
+      <div class="input-box">
+        <label for="startDate">Start Date</label>
+        <input id="startDate" type="date" required />
+      </div>
+
+      <div class="input-box">
+        <label for="endDate">End Date</label>
+        <input id="endDate" type="date" required />
+      </div>
+
+      <button>Calculate</button>
+    </form>
+    <div class="container">
+      <table>
+        <tr>
+          <td>Period</td>
+          <td>1 Month</td>
+        </tr>
+        <tr>
+          <td>Amount</td>
+          <td>20000</td>
+        </tr>
+        <tr>
+          <td>Calculated Interest</td>
+          <td>₹2,500</td>
+        </tr>
+        <tr>
+          <td>End Date</td>
+          <td>2025-01-01</td>
+        </tr>
+      </table>
+
+    </div>
+    <div class="btn-cont">
+        <button>Download Recipt</button>
+    
+    </div>
+  </body>
+</html>
